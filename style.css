@@ -1,0 +1,44 @@
+html{
+    height: 100vh;
+}
+.img{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    
+}
+.icon:active{
+    background-color: grey;
+}
+.point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+}
+@media (max-width:200px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
+    .img,.point{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        padding-top: 40px;
+    }
+    .point{
+        justify-content: end;
+    }
+    
+}
